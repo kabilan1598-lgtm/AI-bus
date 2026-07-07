@@ -232,21 +232,34 @@ When a blocked vehicle is detected:
 
 ## 📸 Screenshots
 
-Example
+CODE PAGE:
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/9d9497c6-36d4-4526-8046-d6ced05598f1" />
+
+LOGIN PAGE:
 <img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/fdf17a5b-e8bf-4e54-9c89-cdc3cc100a64" />
-<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/76cbc7bb-2160-4e8d-87d9-62f570029155" />
-<img width="1920" height="1080" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/2e92f4bd-949b-452f-b489-35418e5defcf" />
-<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/d4edbedf-d16d-453c-a837-b5f6a5d3cd24" />
-<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/e5ee40d6-941a-4231-b5f2-162366654486" />
-<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/013199c1-c855-4148-8513-4b9bbcb0c2ea" />
-<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/e0fcd07b-a917-4e78-bb19-fc4777f32bfa" />
-<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/ea8c94f0-4671-4e62-bd50-9564a8f5b93f" />
-<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/0b033d29-e382-4608-a84e-957bc570c1a8" />
-<img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/afebcd3e-354a-4de2-b83f-b333823e881e" />
+DASHBOARD:
 <img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/7432454f-48d0-4080-9500-30c276a6da78" />
-<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/7ba2733e-846b-4b71-8fad-62bff3cb1c99" />
-<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/7afd0193-cd70-497b-b34a-94ad38ff397f" />
-<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/efd92498-6c3c-40b8-a2dc-febd19ae6019" />
+VEHICLE LOG:
+<img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/7e1d2a46-7652-4951-96ac-31be06eaa0c9" />
+
+VEHICLE LOG GRAPH:
+<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/d4edbedf-d16d-453c-a837-b5f6a5d3cd24" />
+BLOCKED VEHICLE GALLERY:
+<img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/38b42e59-95a8-4561-bd4e-72fad40ffead" />
+ANALYTICS:
+<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/193fd0f2-42de-4836-ad7d-3f948871e299" />
+DAILY ANALYTICS TIME LINE:
+<img width="1920" height="1080" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/d7180d2e-a942-4c85-a30c-72580afd695d" />
+REGISTERD VEHICLES:
+<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/ea8c94f0-4671-4e62-bd50-9564a8f5b93f" />
+ADMIN USER - KABEE:
+<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/0b033d29-e382-4608-a84e-957bc570c1a8" />
+WHATSAPP ALERT:
+<img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/1b04541f-4ef9-4f75-9ac7-1c71f63f9b79" />
+MAIL ALERT:
+<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/4398a848-9f66-4cf9-b23b-1e1efb2943a6" />
+
+
 
 ## 👨‍💻 Developer
 
