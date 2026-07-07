@@ -1,4 +1,4 @@
-#  AI Smart Bus Entry & Exit Monitoring System
+#  AI SMART BUS ENTRY AND EXIT MONITORING SYSTEM
 
 An AI-powered real-time vehicle monitoring system that automatically detects vehicle number plates, verifies vehicle authorization, logs entry/exit activities, and sends instant alerts for blocked vehicles through Email and WhatsApp.
 
@@ -172,6 +172,23 @@ Update the following inside the source code or `.env` file.
 - Account SID
 - Auth Token
 - WhatsApp Sandbox Number
+
+
+NOTE:
+
+## Configuration
+
+Before running the project, replace the placeholder credentials in `main.py` (or configure them using environment variables):
+
+- YOUR_TWILIO_ACCOUNT_SID
+- YOUR_TWILIO_AUTH_TOKEN
+- YOUR_EMAIL@GMAIL.COM
+- YOUR_GMAIL_APP_PASSWORD
+- RECEIVER_EMAIL@GMAIL.COM
+- YOUR_CLOUDINARY_CLOUD_NAME
+- YOUR_CLOUDINARY_API_KEY
+- YOUR_CLOUDINARY_API_SECRET
+
 
 ---
 
