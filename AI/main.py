@@ -17,9 +17,8 @@ import numpy as np
 from datetime import datetime
 from email.message import EmailMessage
 
-# ═══════════════════════════════════════════════════
 # CREDENTIALS
-# ═══════════════════════════════════════════════════
+
 
 ACCOUNT_SID = "YOUR_TWILIO_ACCOUNT_SID"
 AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"
@@ -48,10 +47,7 @@ MIN_PLATE_CONF       = 0.40
 MIN_OCR_CONF         = 0.35
 GATE_LOCATION        = "Main Gate"
 
-
-# ═══════════════════════════════════════════════════
 # DATABASE
-# ═══════════════════════════════════════════════════
 
 def get_conn():
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
@@ -209,10 +205,7 @@ def delete_user(uid):
     conn.commit()
     conn.close()
 
-
-# ═══════════════════════════════════════════════════
 # CLOUDINARY
-# ═══════════════════════════════════════════════════
 
 def upload_to_cloudinary(image_path, plate, owner, date, time_str, location):
     try:
@@ -270,9 +263,8 @@ def fetch_gallery():
         return []
 
 
-# ═══════════════════════════════════════════════════
 # ALERTS
-# ═══════════════════════════════════════════════════
+
 
 def send_email(plate, owner, date, time_str, location, image_url, image_path):
     try:
@@ -356,10 +348,7 @@ def send_all_alerts(plate, owner, date, time_str, location, image_path):
         print("----------------------\n")
     threading.Thread(target=_run, daemon=True).start()
 
-
-# ═══════════════════════════════════════════════════
 # OCR + DETECTION
-# ═══════════════════════════════════════════════════
 
 def preprocess_plate(crop):
     import cv2
@@ -489,10 +478,8 @@ def process_plate(plate, captured_frame):
                 img_path, GATE_LOCATION, owner)
     return status
 
-
-# ═══════════════════════════════════════════════════
 # DETECTION MODE  (python main.py --detect)
-# ═══════════════════════════════════════════════════
+
 
 def run_detection():
     import cv2
@@ -559,10 +546,8 @@ def run_detection():
     finally:
         cap.release()
 
-
-# ═══════════════════════════════════════════════════
 # DASHBOARD  (streamlit run main.py)
-# ═══════════════════════════════════════════════════
+
 
 def run_dashboard():
     import streamlit as st
@@ -581,7 +566,9 @@ def run_dashboard():
         initial_sidebar_state="expanded"
     )
 
-    # ── CSS ──────────────────────────────────────────────
+    #  CSS 
+
+    
     st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -768,7 +755,7 @@ def run_dashboard():
     </style>
     """, unsafe_allow_html=True)
 
-    # ── SESSION STATE ──────────────────────────────────────
+    #  SESSION STATE
     if "logged_in" not in st.session_state:
         st.session_state.logged_in = False
     if "user" not in st.session_state:
@@ -776,7 +763,7 @@ def run_dashboard():
     if "tab" not in st.session_state:
         st.session_state.tab = "Dashboard"
 
-    # ── LOGIN ──────────────────────────────────────────────
+    # LOGIN
     if not st.session_state.logged_in:
         col1, col2, col3 = st.columns([1, 1.2, 1])
         with col2:
@@ -808,7 +795,7 @@ def run_dashboard():
             </div>""", unsafe_allow_html=True)
         return
 
-    # ── SIDEBAR ────────────────────────────────────────────
+    #  SIDEBAR 
     with st.sidebar:
         st.markdown(f"""
         <div style="padding:8px 0 16px;">
@@ -854,7 +841,7 @@ def run_dashboard():
             st.session_state.logged_in = False
             st.rerun()
 
-    # ── HELPERS ────────────────────────────────────────────
+    #  HELPERS 
     def pill(status):
         if status == "Blocked":
             return '<span class="pill pill-blocked">Blocked</span>'
@@ -871,9 +858,8 @@ def run_dashboard():
 
     tab = st.session_state.tab
 
-    # ══════════════════════════════════════════════════════
     # DASHBOARD TAB
-    # ══════════════════════════════════════════════════════
+ 
     if tab == "Dashboard":
         st.markdown("## Dashboard")
 
@@ -966,10 +952,9 @@ def run_dashboard():
                 <span style="color:#4ade80;">● Live</span>
             </div>
             </div>""", unsafe_allow_html=True)
-
-    # ══════════════════════════════════════════════════════
+            
     # VEHICLE LOG TAB
-    # ══════════════════════════════════════════════════════
+
     elif tab == "Vehicle Log":
         import pandas as pd
         st.markdown("## Vehicle Log")
@@ -1044,9 +1029,8 @@ def run_dashboard():
                         file_name=f"vehicle_log_{datetime.now().strftime('%d%m%Y')}.csv",
                         mime="text/csv")
 
-    # ══════════════════════════════════════════════════════
     # GALLERY TAB
-    # ══════════════════════════════════════════════════════
+
     elif tab == "Gallery":
         st.markdown("## Blocked Vehicle Gallery")
         st.markdown("""
@@ -1099,9 +1083,8 @@ def run_dashboard():
                         st.markdown(f"[View on map]({item['location']})")
                     st.markdown("<br/>", unsafe_allow_html=True)
 
-    # ══════════════════════════════════════════════════════
     # ANALYTICS TAB
-    # ══════════════════════════════════════════════════════
+    
     elif tab == "Analytics":
         import pandas as pd
         st.markdown("## Analytics")
@@ -1175,9 +1158,9 @@ def run_dashboard():
         else:
             st.success("No blocked vehicles in the log.")
 
-    # ══════════════════════════════════════════════════════
+
     # VEHICLES TAB
-    # ══════════════════════════════════════════════════════
+    
     elif tab == "Vehicles":
         import pandas as pd
         st.markdown("## Registered Vehicles")
@@ -1277,9 +1260,7 @@ def run_dashboard():
                     st.rerun()
 
 
-# ═══════════════════════════════════════════════════
 # ENTRY POINT
-# ═══════════════════════════════════════════════════
 
 if __name__ == "__main__":
     if "--detect" in sys.argv:
