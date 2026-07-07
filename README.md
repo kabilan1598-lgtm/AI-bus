@@ -2,7 +2,7 @@
 
 An AI-powered real-time vehicle monitoring system that automatically detects vehicle number plates, verifies vehicle authorization, logs entry/exit activities, and sends instant alerts for blocked vehicles through Email and WhatsApp.
 
----
+
 
 ## 📌 Project Overview
 
@@ -10,7 +10,7 @@ The AI Smart Bus Entry & Exit Monitoring System is designed to improve security 
 
 The system captures live video from a camera, recognizes vehicle registration numbers using Artificial Intelligence (EasyOCR), checks them against a vehicle database, records all vehicle movements, captures evidence for blocked vehicles, uploads images to the cloud, and sends instant notifications to registered administrators.
 
----
+
 
 ## 🚀 Features
 
@@ -30,7 +30,7 @@ The system captures live video from a camera, recognizes vehicle registration nu
 - ✅ Real-time Dashboard Updates
 - ✅ SQLite Database Integration
 
----
+
 
 ## 🏗️ System Architecture
 
@@ -71,7 +71,7 @@ Vehicle Database Verification
        Dashboard Updated
 ```
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -89,7 +89,7 @@ Vehicle Database Verification
 | Pillow | Image Display |
 | Regular Expressions | Number Plate Cleaning |
 
----
+
 
 ## 📂 Project Structure
 
@@ -106,7 +106,7 @@ Smart_Bus_System/
 ├── uploads/
 ```
 
----
+
 
 ## ⚙️ Installation
 
@@ -142,7 +142,7 @@ Install Dependencies
 pip install -r requirements.txt
 ```
 
----
+
 
 ## ▶️ Run the Project
 
@@ -150,7 +150,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
+
 
 ## 🔐 Configure API Keys
 
@@ -190,7 +190,7 @@ Before running the project, replace the placeholder credentials in `main.py` (or
 - YOUR_CLOUDINARY_API_SECRET
 
 
----
+
 
 ## 📊 Database
 
@@ -205,7 +205,7 @@ Entry Exit Log
 
 | Plate | Date | Time | Status | Movement |
 
----
+
 
 ## 🚨 Alert System
 
@@ -218,7 +218,7 @@ When a blocked vehicle is detected:
 - Event stored in database
 - Dashboard updated automatically
 
----
+
 
 ## 📈 Future Enhancements
 
@@ -234,7 +234,6 @@ When a blocked vehicle is detected:
 - Analytics Dashboard
 - PDF Report Generation
 
----
 
 ## 🎯 Applications
 
@@ -245,7 +244,7 @@ When a blocked vehicle is detected:
 - Industrial Gate Security
 - Smart Parking Systems
 
----
+
 
 ## 📸 Screenshots
 
@@ -319,7 +318,6 @@ GitHub: https://github.com/kabilan1598-lgtm
 
 LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/kabilan-s-429b39292?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
----
 
 ## ⭐ If you like this project
 
