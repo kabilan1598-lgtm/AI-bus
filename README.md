@@ -235,35 +235,62 @@ When a blocked vehicle is detected:
 CODE PAGE:
 <img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/9d9497c6-36d4-4526-8046-d6ced05598f1" />
 
+
+
 LOGIN PAGE:
 <img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/fdf17a5b-e8bf-4e54-9c89-cdc3cc100a64" />
+
+
 DASHBOARD:
 <img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/7432454f-48d0-4080-9500-30c276a6da78" />
+
+
 VEHICLE LOG:
 <img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/7e1d2a46-7652-4951-96ac-31be06eaa0c9" />
 
+
 VEHICLE LOG GRAPH:
 <img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/d4edbedf-d16d-453c-a837-b5f6a5d3cd24" />
+
+
 BLOCKED VEHICLE GALLERY:
 <img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/38b42e59-95a8-4561-bd4e-72fad40ffead" />
+
+
 ANALYTICS:
 <img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/193fd0f2-42de-4836-ad7d-3f948871e299" />
+
+
 DAILY ANALYTICS TIME LINE:
 <img width="1920" height="1080" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/d7180d2e-a942-4c85-a30c-72580afd695d" />
+
+
 REGISTERD VEHICLES:
 <img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/ea8c94f0-4671-4e62-bd50-9564a8f5b93f" />
+
+
 ADMIN USER - KABEE:
 <img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/0b033d29-e382-4608-a84e-957bc570c1a8" />
+
+
 WHATSAPP ALERT:
 <img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/1b04541f-4ef9-4f75-9ac7-1c71f63f9b79" />
+
+
 MAIL ALERT:
-<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/4398a848-9f66-4cf9-b23b-1e1efb2943a6" />
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/5168bd7a-5510-4be3-ad8d-2e91a506d698" />
+
+
+
+CLOUD UPLOAD:
+<img width="1920" height="1080" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/45f87ddf-7bc1-420a-8325-12dc29b67425" />
+
 
 
 
 ## 👨‍💻 Developer
 
-**Kabilan S**
+**KABILAN S**
 
 Electronics and Communication Engineering
 
